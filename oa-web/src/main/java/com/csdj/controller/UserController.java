@@ -14,6 +14,7 @@ public class UserController {
     userService service;
     @GetMapping("/getAll")
     public List<Users> getAll(){
+        System.out.print("1111");
         return service.getAll();
     }
 }
